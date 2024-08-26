@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="from.css">
+    <title>form</title>
+</head>
+<body>
+    <center>
+    
+    <form action="/submit" method="post">
+        <h1>Personal Details</h1>
+        <br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id = "password" name="password">
+        <br><br>
+        <label for="email">E-mail id:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label>Contact:</label>
+        <input type="tel" id="contact" name="contact">
+        <h3>Educational Qualification</h3>
+
+        <label for="degree">Degree:</label>
+        <select id="degree" name="degree">
+        <option value="default">--Select Group--</option>
+        <option value="B.tech">B.Tech</option>
+        <option value="M.tech">M.Tech</option>
+        <option value="12th pass">12th pass</option>
+        </select>
+        <br><br>
+        <label for="Engineering Branch">Engineering Branch</label>
+        <select id="branch" name="branch"> 
+        <option value="default">--Select Branch--</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="ME">ME</option>
+        <option value="CE">CE</option>
+        </select>
+        <br><br>
+        <checkbox>
+        <label>Skills:</label>
+        <input type="checkbox" id="hoby1" name="hoby1" value="reading books">
+        <label for="hoby1">Reading Books</label>
+        <input type="checkbox" id="hoby2" name="hoby2" value="Playing chess">
+        <label for="hoby2">Playing chess</label>    
+                
+        <h3>Address</h3>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+        <br><br>
+        
+        
+        <label for = "resume">Atach Resume:</label>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- <a href="https://www.example.com" target="_blank">Visit Example</a> -->
+    </center>
+</body>
+
+</html>
